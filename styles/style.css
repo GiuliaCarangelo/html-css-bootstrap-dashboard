@@ -1,0 +1,32 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-bg-lightgray{
+    background-color: #e5e5e5!important;
+}
+
+.navbar form input::placeholder{
+    color: rgb(108, 117, 125);
+}
+
+.my_logo-size{
+    width: 3rem;
+}
+
+.my_aside{
+    background-color: #051e34;
+    width: 150px;
+}
+
+.my_header-height{
+    height: 90px;
+}
+
+.border-test{
+    border: 1.5px dashed red;
+}
+
+.my_margin-left{
+    margin-left: 150px;
+}
