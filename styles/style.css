@@ -2,6 +2,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.border-test{
+    border: 1.5px dashed red;
+}
+
 .my-bg-lightgray{
     background-color: #e5e5e5!important;
 }
@@ -14,19 +18,12 @@ body{
     width: 3rem;
 }
 
-.my_aside{
+.my_dark-blue{
     background-color: #051e34;
+}
+
+.my_height{
     width: 150px;
+    height: calc(100% - 56px);
 }
 
-.my_header-height{
-    height: 90px;
-}
-
-.border-test{
-    border: 1.5px dashed red;
-}
-
-.my_margin-left{
-    margin-left: 150px;
-}
