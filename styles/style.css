@@ -22,8 +22,12 @@ body{
     background-color: #051e34;
 }
 
-.my_height{
+.custom-width{
     width: 150px;
+}
+
+.my_main-height{
     height: calc(100% - 56px);
 }
+
 
