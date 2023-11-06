@@ -19,7 +19,7 @@ body{
 }
 
 .my_logo-size{
-    width: 4rem;
+    width: 3rem;
 }
 
 .my_dark-blue{
@@ -27,7 +27,7 @@ body{
 }
 
 .custom-width{
-    width: 150px;
+    width: 250px;
 }
 
 .my_main-height{
@@ -39,7 +39,7 @@ body{
 }
 
 .main_header-width{
-    width: calc(100vw - 150px);
+    width: calc(100vw - 250px);
 }
 
 .my-form_width{
@@ -49,3 +49,8 @@ body{
 .my_btn-width{
     width: 5%;
 }
+
+main aside div a i{
+    width: 20px;
+}
+
