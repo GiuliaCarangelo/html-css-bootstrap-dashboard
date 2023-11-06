@@ -10,12 +10,16 @@ body{
     background-color: #e5e5e5!important;
 }
 
+.my_light-blue-bg{
+    background-color: #1b72e8;
+}
+
 .navbar form input::placeholder{
     color: rgb(108, 117, 125);
 }
 
 .my_logo-size{
-    width: 3rem;
+    width: 4rem;
 }
 
 .my_dark-blue{
@@ -27,7 +31,21 @@ body{
 }
 
 .my_main-height{
-    height: calc(100% - 56px);
+    height: calc(100vh - 72px);
 }
 
+.main_header-height{
+    height: 100px;
+}
 
+.main_header-width{
+    width: calc(100vw - 150px);
+}
+
+.my-form_width{
+    width: 83%;
+}
+
+.my_btn-width{
+    width: 5%;
+}
