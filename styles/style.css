@@ -35,7 +35,7 @@ body{
 }
 
 .main_header-height{
-    height: 100px;
+    height: 135px;
 }
 
 .main_header-width{
@@ -50,7 +50,18 @@ body{
     width: 5%;
 }
 
+main aside{
+    background-image: url(/img/sidebar-bg.png);
+}
+
 main aside div a i{
     width: 20px;
 }
 
+.admin-item{
+    margin-top: 850px;
+}
+
+.custom_badge-bg{
+    background-color: rgba(0, 0, 0, .25);
+}

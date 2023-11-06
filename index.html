@@ -21,7 +21,7 @@
     <!-- FONTAWESOME CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Bootstrap Dashboard</title>
 </head>
 
@@ -31,42 +31,82 @@
             <div class="container-fluid pe-0 d-flex justify-content-center">
                 <a class="navbar-brand pe-4">
                     <img class="d-lg-block d-md-none" src="./img/logo.svg" alt="Booolean Logo Vector">
-                    <img class="my_logo-size d-lg-none d-md-flex" src="./img/mobile-logo.png" alt="Boolean Logo Mobile Vector">
+                    <img class="my_logo-size d-lg-none d-md-flex" src="./img/mobile-logo.png"
+                        alt="Boolean Logo Mobile Vector">
                 </a>
                 <form class="d-flex my-form_width" role="search">
-                    <input class="form-control bg-secondary-subtle justify-content-start py-2 me-2" type="search"  placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search"></input>
+                    <input class="form-control bg-secondary-subtle justify-content-start py-2 me-2" type="search"
+                        placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search"></input>
                 </form>
-                    <div class="d-flex justify-content-around my_btn-width">
-                        <a class="d-xl-inline-flex d-lg-block d-md-none p-2 ps-4 text-secondary" href="#"><i class="fa-solid fa-list"></i></a>
-                        <a class="d-xl-inline-flex d-lg-block d-md-none p-2 text-secondary" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
-                        <a class="d-xl-inline-flex d-lg-block d-md-block p-2 text-warning" href="#"><i class="fa-solid fa-bell"></i></a>
-                    </div>
+                <div class="d-flex justify-content-around my_btn-width">
+                    <a class="d-xl-inline-flex d-lg-block d-md-none p-2 ps-4 text-secondary" href="#"><i
+                            class="fa-solid fa-list"></i></a>
+                    <a class="d-xl-inline-flex d-lg-block d-md-none p-2 text-secondary" href="#"><i
+                            class="fa-solid fa-ellipsis-vertical"></i></a>
+                    <a class="d-xl-inline-flex d-lg-block d-md-block p-2 text-warning" href="#"><i
+                            class="fa-solid fa-bell"></i></a>
+                </div>
             </div>
         </nav>
     </header>
 
     <main class="d-flex flex-row my_main-height">
-        <aside class="h-100 d-flex align-content-between custom-width my_dark-blue">
-            <div class="d-flex text-start flex-column pe-4">
-                <ul class="pt-4">
-                    <li class="py-2">
-                        <a class="fs-4 text-decoration-none text-white" href="#"><i class="fa-solid fa-house fs-4 me-4"></i>Home</a>
-                    </li>
-                    <li class="py-2">
-                        <a class="fs-4 text-decoration-none text-white" href="#"><i class="fa-solid fa-chart-simple fs-4 me-4"></i>Stats</a>
-                    </li>
-                    <li class="py-2">
-                        <a class="fs-4 text-decoration-none text-white" href="#"><i class="fa-solid fa-signal fs-5 me-4"></i>Signals</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="pe-4">
-            </div>
-
         <!-- ASIDE SECTION -->
+        <section class="d-flex">
+            <aside class="h-100 d-flex align-content-between custom-width my_dark-blue">
+                <div class="d-flex w-100 text-start flex-column pe-4">
+                    <ul class="pt-4">
+                        <li class="py-2">
+                            <a class="fs-4 text-decoration-none text-white" href="#"><i
+                                    class="fa-solid fa-house fs-4 me-4"></i>Home</a>
+                        </li>
+                        <li class="py-2">
+                            <a class="fs-4 text-decoration-none text-white" href="#"><i
+                                    class="fa-solid fa-chart-simple fs-4 me-4"></i>Stats</a>
+                        </li>
+                        <li class="py-2">
+                            <a class="fs-4 text-decoration-none text-white" href="#"><i
+                                    class="fa-solid fa-signal fs-5 me-4"></i>Signals</a>
+                        </li>
+                        <li class="admin-item py-2">
+                            <a class="fs-4 text-decoration-none text-white" href="#"><i
+                                    class="fa-solid fa-gear fs-5 me-4"></i>Admin</a>
+                        </li>
+
+                    </ul>
+                </div>
+        </section>
         </aside>
         <header class="h-100 my-bg-lightgray">
             <div class="main_header-height main_header-width my_light-blue-bg">
+                <div class="row px-2 py-3 text-white fw-">
+                    <div class="col-6 fs-2">
+                        <h1 class="d-inline-block mb-0">Boolean</h1>
+                        <a class="text-white text-decoration-none custom_badge-bg px-2 py-1 me-1 rounded-pill fs-6 "
+                            href="#">Piano blaze</a>
+                        <div>
+                            <a class="text-white text-decoration-none custom_badge-bg px-2 py-1 me-1 rounded-pill fs-6 "
+                                href="#">3 app</a>
+                            <i class="fa-solid fa-angles-right text-white fs-5"></i>
+                            <a class="text-white text-decoration-none custom_badge-bg px-2 py-1 me-1 rounded-pill fs-6 "
+                                href="#">Boolean mobile app</a>
+                            <a class="text-white text-decoration-none custom_badge-bg px-2 py-1 me-1 rounded-pill fs-6 "
+                                href="#">Boolean web app</a>
+                            <a class="text-white text-decoration-none custom_badge-bg px-2 py-1 me-1 rounded-pill fs-6 "
+                                href="#">Boolean blog app</a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <h5>Studenti online negli ultimi 30 minuti</h5>
+                        <div class="pt-2">
+                            <h2 class="fs-1">125</h2>
+                        </div>
+                    </div>
+                    <div class="col-3 ps-5">
+                        <h5 class="ps-5" >Nuovo Studente<i class="fa-solid fa-plus p-2 ms-4 rounded border-white border border-info"></i></h5>                    </h5>
+                    </div>
+
+                </div>
             </div>
         </header>
         <div class="main-content border-test">
@@ -74,7 +114,7 @@
         </div>
     </main>
 
-    
+
     <aside>
 
     </aside>
