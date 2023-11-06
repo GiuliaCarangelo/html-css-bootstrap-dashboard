@@ -27,7 +27,7 @@ body{
 }
 
 .my_main-height{
-    height: calc(100% - 56px);
+    height: calc(100vh - 72px);
 }
 
 
