@@ -31,11 +31,21 @@ body{
 }
 
 .my_main-height{
-    height: calc(100vh - 72px);
+    height: calc(100vh - 200px);
+}
+
+.my_main-width{
+    margin-left: 250px;
+}
+
+/* dare of: scroll e aumentare height in seguito */
+
+.my_aside-height{
+    height: calc( 100vh - 74.5px);
 }
 
 .main_header-height{
-    height: 135px;
+    height: 130px;
 }
 
 .main_header-width{
@@ -64,4 +74,12 @@ main aside div a i{
 
 .custom_badge-bg{
     background-color: rgba(0, 0, 0, .25);
+}
+
+.my_main-margin{
+    margin-top: 150px;
+}
+
+.my_margin-left{
+    margin-left: 250px;
 }
